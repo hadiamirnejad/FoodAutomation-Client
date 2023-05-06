@@ -1,0 +1,120 @@
+@import url("./material.css");
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+#preview {
+  background: transparent
+    url("https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png")
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left),
+.e-input-group.e-success:not(.e-float-icon-left),
+.e-input-group.e-warning:not(.e-float-icon-left),
+.e-input-group.e-error:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+  border: none;
+}
+
+.centered-element {
+  max-width: 500px;
+}
+
+@media (max-width: 576px) {
+  .centered-element {
+    min-width: 90%;
+  }
+}
+
+.section-container{
+  width: 100%;
+  /* position: relative; */
+}
+
+
+.candle-chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.k-line-chart-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+  background-color: #FFFFFF;
+  width: 620px;
+  height: 440px;
+  padding: 16px 6px 16px 16px;
+}
+.k-line-chart-title {
+  margin: 0;
+  color: #252525;
+  padding-bottom: 10px;
+}
+.k-line-chart {
+  display: flex;
+  flex: 1;
+}
+.k-line-chart-menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #606060;
+}
+.k-line-chart-menu-container button {
+  cursor: pointer;
+  background-color: #2196F3;
+  border-radius: 2px;
+  margin-right: 8px;
+  height: 24px;
+  line-height: 26px;
+  padding: 0 6px;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  outline: none;
+}

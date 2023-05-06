@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: ISFont;
+    src: url("../public/fonts/IranSans.ttf");
+}
+
+@font-face {
+    font-family: ISFontFaNum;
+    src: url("../public/fonts/IRANSansWebFaNum_Light.ttf");
+}
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: ISFontFaNum, "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
